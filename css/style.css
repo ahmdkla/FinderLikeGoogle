@@ -1,0 +1,166 @@
+.roboto{
+    font-family: 'Roboto';
+    font-size: 4vw;
+}
+
+body,html{
+    margin:0 auto;
+    font-family: 'Open Sans';
+}
+
+.grayee{
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.minisearch{
+    display: flex;
+}
+
+
+
+.menu img {
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+}
+
+.container-fluid .container{
+    display: flex;
+}
+
+.content .container{
+    display: flex;
+}
+
+.container .logo{
+    flex: 1;
+}
+
+.container .logo > a, .menu > a{
+    color: black;
+    text-decoration: none;
+}
+
+.container .menu{
+    display: flex;
+    align-items: center;
+}
+.container .menu > h4,img {
+    margin: 20px;
+}
+
+.container .menu .dotsquare:hover{
+    border: 6px solid red;  
+}
+
+.container .menu .dotsquare{
+    border: 5px solid gray;
+    margin: 3px;
+}
+
+.wkwk {
+    margin-top: 100px;
+}
+
+.main > h1 {
+    font-size: 5vw;
+}
+
+.main > h1 > span{
+    font-size: 10vw;
+}
+
+.search{
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    margin: 21px;
+}
+
+.search input{
+    width: 720px;
+    border-radius: 1.5em;
+    height: 3vw;
+    border: 2px solid gray;
+    box-shadow: 1px 3px 5px 0px black;
+}
+
+.result{
+    justify-content: center;
+}
+
+.result button{
+    margin: 20px;
+    width: 200px;
+}
+
+a{
+    padding: 20px;
+}
+
+.location{
+    margin-top:135px;
+    flex-direction: column;
+    padding:15px;
+    color: lightseagreen;
+}
+
+.foot{
+    flex-direction: column;
+    padding:10px;
+}
+
+.widew{
+    width: 400px;
+}
+
+.inside{
+    margin: 10px;
+}
+
+.inside .hehe{
+    color: rgb(78, 65, 65);
+}
+
+.inside .title{
+    font-size: 30px;
+    color: rgb(46, 100, 161);
+    margin-top: 10px;
+}
+
+.inside .active{
+    color: purple;
+}
+
+.inside .link{
+    color: rgb(46, 100, 161);
+}
+
+.inside .detail{
+    padding: 20px;
+}
+
+.loc {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+}
+
+.fa {
+    padding: 20px;
+}
+
+.border{
+    margin: 10px;
+    border-radius: 2em;
+    box-shadow: 1px 4px 4px 3px gray;
+}
+
+.border img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
